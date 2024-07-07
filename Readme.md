@@ -3,6 +3,7 @@
 
 https://nbviewer.org/github/lucapdr1/ai-generated-images-detection/tree/master/
 
+
 ## Overview
 
 This repository contains a deep learning project aimed at categorizing images as either AI-generated or real. The project explores various deep learning techniques, model architectures, and data processing methods to enhance the accuracy of image classification.
