@@ -1,7 +1,10 @@
 
 # AI-Generated vs Real Image Categorisation
 
-https://nbviewer.org/github/lucapdr1/ai-generated-images-detection/tree/master/
+Luca Pedranzini
+Florian Tilliet
+
+All notebooks can be viewed [here](https://nbviewer.org/github/lucapdr1/ai-generated-images-detection/tree/master/) in their html rendered version
 
 
 ## Overview
@@ -23,14 +26,13 @@ The project is divided into several iterations, each with objective of improving
 
 ### Dataset Loading
 
-We decided to use the CIFAKE: Real and AI-Generated Synthetic Images [here](https://www.kaggle.com/datasets/birdy654/cifake-real-and-ai-generated-synthetic-images)
-
+We decided to use the [CIFAKE: Real and AI-Generated Synthetic Images](https://www.kaggle.com/datasets/birdy654/cifake-real-and-ai-generated-synthetic-images)
 
 ## Results
-### v1.0
+###  [`v1.0-baseline`](https://nbviewer.org/github/lucapdr1/ai-generated-images-detection/tree/master/v1.0-baseline/)
 - Adapted and executed a Kaggle deep learning notebook locally to understand its implementation and results.
 
-### v1.1
+###  [`v1.1-baseline-steps`](https://nbviewer.org/github/lucapdr1/ai-generated-images-detection/tree/master/v1.1-baseline-steps/)
 - **Preprocessing**:
   - CIFake dataset size: ~0.5GB
   - Numpy arrays size: ~2.5GB
@@ -42,21 +44,21 @@ We decided to use the CIFAKE: Real and AI-Generated Synthetic Images [here](http
 - **Testing**:
   - Fast loading and prediction
 
-### v1.2
+###  [`v1.2-tuned-versions`](https://nbviewer.org/github/lucapdr1/ai-generated-images-detection/tree/master/v1.2-tuned-versions/)
 - **Fine Tuning**:
   - Training ResNet: ~10 hours on laptop, ~6 hours on Colab/Kaggle free-tier
   - results
 
-### v1.3
+###  [`v1.3-data-augmentation`](https://nbviewer.org/github/lucapdr1/ai-generated-images-detection/tree/master/v1.3-data-augmentation/)
 - **Data Augmentation and Early Stopping**:
   - Performance was worse than without these techniques
   - Hyperparameter tuning is crucial for optimal performance
 
-### v2.0
+###  [`v2.0-new-dataset`](https://nbviewer.org/github/lucapdr1/ai-generated-images-detection/tree/master/v2.0-new-dataset/)
 - **Different Dataset (Missing)**:
   - todo
 
-### v3.0
+###  [`v3.0-visual-transformers`](https://nbviewer.org/github/lucapdr1/ai-generated-images-detection/tree/master/v3.0-visual-transformer/)
 - **Vit**:
   - todo
 
