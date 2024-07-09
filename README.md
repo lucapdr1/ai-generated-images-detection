@@ -1,8 +1,8 @@
 
 # AI-Generated vs Real Image Categorisation
 
-Luca Pedranzini
-Florian Tilliet
+- Luca Pedranzini
+- Florian Tilliet
 
 All notebooks can be viewed [here](https://nbviewer.org/github/lucapdr1/ai-generated-images-detection/tree/master/) in their html rendered version
 
