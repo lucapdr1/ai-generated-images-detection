@@ -19,8 +19,8 @@ The project is divided into several iterations, each with objective of improving
 
 - **v1.0**: Baseline implementation based on an example project.
 - **v1.1**: Subdivision of the baseline into distinct steps with performance evaluation on a laptop.
-- **v1.2**: Implementation using ResNet and other similar architectures.
-- **v1.3**: Addition of data augmentation and early stopping techniques.
+- **v1.2**: Addition of data augmentation and early stopping techniques.
+- **v1.3**: Implementation using ResNet and other similar architectures.
 - **v2.0**: Experimentation with a similar dataset.
 - **v3.0**: Implementation using Vision Transformer (ViT) architecture.
 
@@ -44,15 +44,15 @@ We decided to use the [CIFAKE: Real and AI-Generated Synthetic Images](https://w
 - **Testing**:
   - Fast loading and prediction
 
-###  [`v1.2-tuned-versions`](https://nbviewer.org/github/lucapdr1/ai-generated-images-detection/tree/master/v1.2-tuned-versions/)
-- **Fine Tuning**:
-  - Training ResNet: ~10 hours on laptop, ~6 hours on Colab/Kaggle free-tier
-  - results
-
-###  [`v1.3-data-augmentation`](https://nbviewer.org/github/lucapdr1/ai-generated-images-detection/tree/master/v1.3-data-augmentation/)
+###  [`v1.2-data-augmentation`](https://nbviewer.org/github/lucapdr1/ai-generated-images-detection/tree/master/v1.2-data-augmentation/)
 - **Data Augmentation and Early Stopping**:
   - Performance was worse than without these techniques
   - Hyperparameter tuning is crucial for optimal performance
+
+###  [`v1.3-tuned-versions`](https://nbviewer.org/github/lucapdr1/ai-generated-images-detection/tree/master/v1.3-tuned-versions/)
+- **Fine Tuning**:
+  - Training ResNet: ~10 hours on laptop, ~6 hours on Colab/Kaggle free-tier
+  - results
 
 ###  [`v2.0-new-dataset`](https://nbviewer.org/github/lucapdr1/ai-generated-images-detection/tree/master/v2.0-new-dataset/)
 - **Different Dataset (Missing)**:
