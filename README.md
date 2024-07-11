@@ -60,7 +60,8 @@ We decided to use the [CIFAKE: Real and AI-Generated Synthetic Images](https://w
 
 ###  [`v3.0-visual-transformers`](https://nbviewer.org/github/lucapdr1/ai-generated-images-detection/tree/master/v3.0-visual-transformer/)
 - **Vit**:
-  - todo
+  - Utilized Vision Transformers (ViT) combined with CNNs for weighted fusion.
+  - Performance was actually worse than ResNet.
 
 ## Potential Problems
 - **Watermarks**: Handling visible and invisible watermarks in images.
